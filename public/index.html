@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+    <title>Trip Planner</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./style.css"></link>
+    <script src="./bundle.js" defer></script>
+  </head>
+  <body>
+    <nav id="nav">[[navbar]]</nav>
+    <div id="window">
+        <div id="map"></div>
+        <div id="right-side">
+            <div id="options">
+                <div>
+                <h3>Hotels</h3> 
+                    <select id="hotels">
+                        <option value="">--Please choose an option--</option>
+                        <option value="affordable-hotels">Affordable</option>
+                        <option value="luxury-hotels">Luxury</option>
+                    </select>
+                    <button>X</button>
+                </div>
+                <div>
+                    <h3>Restaurants</h3> 
+                    <select id="restaurants">
+                        <option value="">--Please choose an option--</option>
+                        <option value="chinese-restaurants">Chinese</option>
+                        <option value="italian-restaurants">Italian</option>
+                        <option value="vegitarian">Vegitarian</option>
+                    </select>
+                    <button>X</button>
+                </div>
+                <div>
+                    <h3>Things To Do</h3> 
+                    <select id="things-to-do">
+                        <option value="">--Please choose an option--</option>
+                        <option value="museums">Museums</option>
+                        <option value="music">Music</option>
+                        <option value="shows">Shows</option>
+                    </select>
+                    <button>X</button>
+                </div>
+            </div>
+            <div id="itinerary">
+                <div><h3>Itinerary:</h3></div>
+                <h4>My Hotel</h4>
+                <span id="my-hotel">PLACEHOLDER INFO<button>X</button></span>
+                <h4>My Restaurant</h4>
+                <span id="my-restaurant">PLACEHOLDER INFO<button>X</button></span>
+                <h4>My Things To Do</h4>
+                <span id="my-things-to-do">PLACEHOLDER INFO<button>X</button></span>
+            </div>
+        </div>
+    </div>
+</body>        
+</html>

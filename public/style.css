@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #C1B5AD;
+  }
+
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  nav {
+    display: flex;
+    height: 50px;
+    background-color: red;
+  }
+
+  #window {
+    display:flex;
+  }
+
+  #options {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 25vw;
+    background-color: tan;
+    padding-left: 20px;
+  }
+
+  #itinerary {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 25vw;
+    background-color: green;
+  }
+
+  button {
+    background-color: red;
+    color: white;
+    border-radius: 5px; 
+    height: auto;
+    width: auto;
+    margin-left: 5px;
+  }
+
+  #itinerary div{
+    background-color: orange;
+  }
+  
+  #itinerary div, h4, span {
+    padding-left: 20px;
+  }
+
+  span {
+    justify-content: space-between;
+  }
